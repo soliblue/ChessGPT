@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "chessGPT",
+    "slug": "chessGPT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyBhOwJ5RGZ9hzlA7S7lxprJui_2yfNvQ60",
+        "authDomain": "chessgpt-xyz.firebaseapp.com",
+        "projectId": "chessgpt-xyz",
+        "storageBucket": "chessgpt-xyz.appspot.com",
+        "messagingSenderId": "383825905743",
+        "appId": "1:383825905743:web:9d882c05642d0adf3b423a",
+        "measurementId": "G-KC5VBEE3LE"
+      }
+    }
+  }
+}
