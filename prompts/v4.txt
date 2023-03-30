@@ -1,0 +1,2 @@
+Hello Magnus, given the following board state represent in FEN notation {board_state_fen}, what is the best move for black?
+Example Response: <from>e2</from><to>e3</to>

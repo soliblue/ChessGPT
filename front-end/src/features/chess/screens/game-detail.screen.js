@@ -18,7 +18,7 @@ export const GameDetailScreen = ({ route }) => {
   console.log("game?.data?.board?.state", game?.data?.board?.state);
 
   return (
-    <VStack flex={1} space={"sm"} justifyContent="space-between">
+    <VStack bg="white" flex={1} space={"sm"} justifyContent="space-between">
       <Header />
       <VStack space={"xl"} justifyContent="center">
         {game?.isLoading || !game?.data ? (

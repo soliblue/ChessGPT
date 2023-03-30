@@ -12,3 +12,4 @@ web-build/
 .DS_Store
 .firebase/
 .expo-shared/
+.app.json
